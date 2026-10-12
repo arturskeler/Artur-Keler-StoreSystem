@@ -1,0 +1,483 @@
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790708500704, "message": "Database initialized.", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790712557408, "message": "A user has been created in the database: lag92@mail.ru", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790712557426, "message": "A user lag92@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790712557426, "message": "User is registered: lag92@mail.ru", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790716320055, "message": "Created token for: lag92@mail.ru", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790716320060, "message": "User is logged in: lag92@mail.ru", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790885515506, "message": "Database initialized.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790890981400, "message": "Database initialized.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891024930, "message": "A user has been created in the database: 1@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891024950, "message": "A user 1@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891024951, "message": "User is registered: 1@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891494303, "message": "A user has been created in the database: anton@a.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891494314, "message": "A user anton@a.com has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891494315, "message": "User is registered: anton@a.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891506664, "message": "Created token for: anton@a.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891506665, "message": "User is logged in: anton@a.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891506672, "message": "Token successfully decoded: {'sub': 'anton@a.com', 'is_superadmin': False, 'exp': 1790893306}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1790891506675, "message": "User anton@a.com accessed to /store.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791314578140, "message": "Database initialized.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791314755850, "message": "Created token for: anton@a.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791314755851, "message": "User is logged in: anton@a.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791314755862, "message": "Token successfully decoded: {'sub': 'anton@a.com', 'is_superadmin': False, 'exp': 1791316555}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791314755864, "message": "User anton@a.com accessed to /store.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316168805, "message": "A user has been created in the database: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316168895, "message": "A user testuser1@example.com has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316168896, "message": "User is registered: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316281466, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316281467, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316724364, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': False, 'exp': 1791318081}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791316807348, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': False, 'exp': 1791318081}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791317410893, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': False, 'exp': 1791318081}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318075143, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': False, 'exp': 1791318081}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318567781, "message": "Token decoding failed: Signature has expired.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318581854, "message": "Token decoding failed: Signature has expired.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318593171, "message": "Token decoding failed: Signature has expired.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318714719, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318714720, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318731081, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791320514}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318731106, "message": "A user lag92@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318731107, "message": "User lag92@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318886421, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791320514}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318886432, "message": "User lag92_updated@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318886434, "message": "User lag92_updated@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318954481, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791320514}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318954487, "message": "A user lag92_updated@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318954488, "message": "User lag92_updated@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318961055, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791320514}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318961059, "message": "User lag92_updated@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791318961060, "message": "User lag92_updated@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791321655039, "message": "Token decoding failed: Signature has expired.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791321661132, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791321661133, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791321664466, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791321664478, "message": "User ivan_edited@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791321664479, "message": "User ivan_edited@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322370908, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322438545, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322628192, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322742159, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322763766, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322773728, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322781786, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791322892963, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323142697, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323145810, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323180436, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323180442, "message": "User ivan_edited@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323180443, "message": "User ivan_edited@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323283467, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323283479, "message": "User ivan_e@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323283479, "message": "User ivan_e@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323305083, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791323461}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323981496, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791323981497, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324006851, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791325781}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324006874, "message": "User ivan_updated@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324006876, "message": "User ivan_updated@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324080884, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324080886, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324196385, "message": "A user has been created in the database: 123@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324196392, "message": "A user 123@example.com has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324196393, "message": "User is registered: 123@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324242570, "message": "Created token for: 123@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324242571, "message": "User is logged in: 123@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324277083, "message": "Token successfully decoded: {'sub': '123@example.com', 'is_superadmin': False, 'exp': 1791326042}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324433864, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324433865, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324491178, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791326233}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324491193, "message": "User ivan_updated@mail.ru has been deleted from the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324491196, "message": "Super admin testuser1@example.com deleted user ivan_updated@mail.ru.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324525352, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791326233}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324558214, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791326233}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324618037, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791326233}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324677427, "message": "Created token for: 123@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324677427, "message": "User is logged in: 123@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791324720711, "message": "Token successfully decoded: {'sub': '123@example.com', 'is_superadmin': False, 'exp': 1791326477}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325484496, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325484500, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325484501, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325515712, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325655776, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325655777, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325696565, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325710776, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791325751665, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791326422881, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791327455}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327304839, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327304953, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327305748, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327305749, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327306465, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327306466, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307176, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307333, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307442, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329106}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307631, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307646, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307648, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307740, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329106}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307746, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307747, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307830, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307924, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307938, "message": "User updated_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327307940, "message": "User updated_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308032, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308127, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308264, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329106}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308360, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329106}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308455, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308548, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329105}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327308637, "message": "Token decoding failed: Not enough segments", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327828343, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327828486, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327829235, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327829236, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327829934, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327829935, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327830630, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327830728, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327830824, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831024, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831036, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831038, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831118, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831125, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831126, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831229, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831322, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831335, "message": "User updated_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831336, "message": "User updated_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831401, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831497, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831632, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831728, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831820, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831898, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329629}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791327831989, "message": "Token decoding failed: Not enough segments", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328118819, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328118937, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328119718, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328119719, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328120417, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328120419, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121122, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121205, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121283, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329920}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121454, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121466, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121467, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121549, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329920}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121553, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121555, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121640, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121734, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121744, "message": "User updated_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121745, "message": "User updated_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121811, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328121907, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328122090, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329920}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328122169, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791329920}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328122250, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328122341, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791329919}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328122433, "message": "Token decoding failed: Not enough segments", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328173204, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328326025, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328385400, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328385406, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328385407, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328494295, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328494298, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328494299, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328494392, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328495197, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328495198, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328495899, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328495900, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328496594, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328496675, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328496768, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328496938, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328496949, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328496950, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497031, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497035, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497037, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497124, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497201, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497301, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497392, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497575, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497584, "message": "User hacked@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497585, "message": "User hacked@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497669, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497766, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497859, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330295}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328497948, "message": "Token decoding failed: Not enough segments", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328777382, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328777460, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328777461, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328777576, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328778272, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328778274, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328778972, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328778973, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328779674, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328779764, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328779859, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780028, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780043, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780045, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780137, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780144, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780145, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780232, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780309, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780321, "message": "User updated_unique_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780323, "message": "User updated_unique_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780387, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780456, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780645, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780742, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780838, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328780916, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330578}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328781016, "message": "Token decoding failed: Not enough segments", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791328948549, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329021465, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329021469, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329021470, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329021575, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329022355, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329022356, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329023046, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329023048, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329023758, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329023845, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329023938, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330823}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024108, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024118, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024120, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024202, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330823}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024209, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024210, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024294, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024387, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024400, "message": "User updated_unique_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024402, "message": "User updated_unique_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024483, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024582, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024767, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330823}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024860, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791330823}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329024939, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329025026, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329025116, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791330822}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329025124, "message": "User updated_unique_user@mail.ru has been deleted from the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329025126, "message": "Super admin testuser1@example.com deleted user updated_unique_user@mail.ru.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329237150, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329237155, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329237156, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329237335, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329238042, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329238043, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329238824, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329238826, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329239541, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329239644, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329239737, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329239925, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329239938, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329239939, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240015, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240020, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240022, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240122, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240199, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240209, "message": "User updated_unique_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240210, "message": "User updated_unique_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240291, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240387, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240584, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240681, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240774, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240869, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240972, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331038}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240980, "message": "User updated_unique_user@mail.ru has been deleted from the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329240982, "message": "Super admin testuser1@example.com deleted user updated_unique_user@mail.ru.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329692424, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329692428, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329692429, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329692595, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329693412, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329693413, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329694122, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329694123, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329694913, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329694987, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695081, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331494}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695255, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331494}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695363, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695456, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695537, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695545, "message": "User updated_unique_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695546, "message": "User updated_unique_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695641, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695828, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331494}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329695923, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331494}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696018, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696095, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696199, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696208, "message": "A user updated_unique_user@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696210, "message": "User updated_unique_user@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696308, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331493}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696316, "message": "User updated_unique_user@mail.ru has been deleted from the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791329696319, "message": "Super admin testuser1@example.com deleted user updated_unique_user@mail.ru.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330092190, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330092194, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330092195, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330092304, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330093086, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330093087, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330093792, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330093793, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330094489, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330094568, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330094661, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330094847, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330094939, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095019, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095084, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095092, "message": "User updated_unique_user@mail.ru has been updated in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095093, "message": "User updated_unique_user@mail.ru has been updated.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095189, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095361, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095457, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095548, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095643, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095747, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095757, "message": "A user updated_unique_user@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095758, "message": "User updated_unique_user@mail.ru promoted to super admin.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095857, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791331893}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095864, "message": "User updated_unique_user@mail.ru has been deleted from the database", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791330095867, "message": "Super admin testuser1@example.com deleted user updated_unique_user@mail.ru.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791551860718, "message": "Database initialized.", "ip_address": "172.18.0.4"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791590103113, "message": "Database initialized.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791667688031, "message": "Database initialized.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791673867193, "message": "Token decoding failed: Signature verification failed.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674450737, "message": "Token decoding failed: Signature verification failed.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674462904, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674470088, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674480457, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674486766, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674486767, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674491792, "message": "Token decoding failed: Signature verification failed.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674497745, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674497746, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674502086, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676297}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674534761, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674534762, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674542397, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676334}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674553559, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674553560, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674556466, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676334}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674556479, "message": "A user user_test@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674556480, "message": "User user_test@mail.ru promoted to super admin.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674560714, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676334}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674560725, "message": "User user_test@mail.ru has been deleted from the database", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674560729, "message": "Super admin testuser1@example.com deleted user user_test@mail.ru.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674600962, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674601088, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674601856, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674601857, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674602560, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674602561, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603257, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603339, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603405, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791676402}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603554, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791676402}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603653, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603713, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603805, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603814, "message": "User updated_unique_user@mail.ru has been updated in the database", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603815, "message": "User updated_unique_user@mail.ru has been updated.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674603895, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604088, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791676402}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604173, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791676402}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604244, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604330, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604405, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604413, "message": "A user updated_unique_user@mail.ru promoted to super admin in the database", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604414, "message": "User updated_unique_user@mail.ru promoted to super admin.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604506, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791676401}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604514, "message": "User updated_unique_user@mail.ru has been deleted from the database", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674604517, "message": "Super admin testuser1@example.com deleted user updated_unique_user@mail.ru.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674803537, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674803538, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791674805516, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675256810, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675256811, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675258777, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675261500, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675270019, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675270030, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675270031, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675273012, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675273014, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675281711, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675281712, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675311712, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675311713, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675330387, "message": "Registration failed: email user_test@mail.ru is already existed.", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675337709, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675337711, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675511950, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677137}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675519803, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675519805, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675523148, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677137}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675532853, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791677319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675535716, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677137}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675563139, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791677319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791675782390, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677137}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676021547, "message": "Failed login attempt for email: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676037376, "message": "A user has been created in the database: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676037380, "message": "A user user_test@mail.ru has been created in PostgreSQL with role limited_user", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676037381, "message": "User is registered: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676041164, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676041165, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676071461, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676071462, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676252754, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676333326, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676375266, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676483335, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676483336, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676487507, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678283}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676491100, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678283}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676493675, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676513981, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676519229, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676519231, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676525571, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676529735, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676534448, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676543085, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676558290, "message": "Token successfully decoded: {'sub': 'user_test@mail.ru', 'is_superadmin': False, 'exp': 1791677871}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676617451, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676707334, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676716826, "message": "Created token for: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676716827, "message": "User is logged in: user_test@mail.ru", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676721160, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676728435, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676747030, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676751417, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676773345, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676786168, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676811003, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791676818780, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791678319}", "ip_address": "172.18.0.7"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791840700373, "message": "Database initialized.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791842377584, "message": "Database initialized.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791844335403, "message": "Token decoding failed: Signature verification failed.", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791844368300, "message": "Created token for: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791844368302, "message": "User is logged in: testuser1@example.com", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791844374480, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791846168}", "ip_address": "172.18.0.6"}
+{"name": "app.logger", "class": "INFO", "state": 20, "timestamp": 1791844466328, "message": "Token successfully decoded: {'sub': 'testuser1@example.com', 'is_superadmin': True, 'exp': 1791846168}", "ip_address": "172.18.0.6"}

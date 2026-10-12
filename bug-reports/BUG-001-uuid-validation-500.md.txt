@@ -1,0 +1,20 @@
+# BUG-001: Сервер возвращает 500 вместо 422 при передаче невалидного UUID
+
+## 📌 Описание
+При передаче некорректного формата UUID в пути запроса (`PUT /users/edit/{id}` или `DELETE /users/delete/{id}`) бэкенд падает с необработанным исключением, возвращая статус `500 Internal Server Error`, вместо того чтобы вернуть клиенту ошибку валидации `422 Unprocessable Entity`.
+
+## 🛠 Шаги воспроизведения (Steps to Reproduce)
+1. Открыть Postman и выбрать запрос `PUT [422] Edit User - Invalid UUID`.
+2. Указать в пути невалидный ID: `not-a-valid-uuid`.
+3. Передать валидный токен авторизации администратора.
+4. Нажать Send.
+
+## ✅ Ожидаемый результат (Expected Result)
+Сервер должен вернуть статус `422 Unprocessable Entity` с описанием ошибки валидации формата данных.
+
+## ❌ Фактический результат (Actual Result)
+Сервер возвращает статус `500 Internal Server Error` с телом ответа `Internal Server Error`.
+
+## 🔍 Окружение
+* **Среда:** Docker / FastAPI / PostgreSQL
+* **Версия:** Release 1 (Authorization API)

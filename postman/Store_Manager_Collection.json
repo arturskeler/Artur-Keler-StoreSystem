@@ -1,0 +1,905 @@
+{
+  "info": {
+    "_postman_id": "d2e00fe6-49c2-4f23-9216-e320dcca4720",
+    "name": "StoreManager",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "28335927",
+    "_collection_link": "https://go.postman.co/collection/28335927-d2e00fe6-49c2-4f23-9216-e320dcca4720?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "01.Auth",
+      "item": [
+        {
+          "name": "POST [201] Register - Success",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Сохранение ID созданного юзера\", function () {\r\n    pm.response.to.have.status(201);\r\n    pm.environment.set(\"targetUserId\", pm.response.json().id);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Target User\",\r\n  \"email\": \"{{user_email}}\",\r\n  \"password\": \"{{user_password}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/register/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "register",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST [400] Register - Duplicate Email",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Статус 400 Bad Request при дубликате email\", function () {\r\n    pm.response.to.have.status(400);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Duplicate User\",\r\n  \"email\": \"{{user_email}}\",\r\n  \"password\": \"{{user_password}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/register/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "register",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST [422] Register - Invalid Email",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Статус 422 Unprocessable Entity при невалидном email\", function () {\r\n    pm.response.to.have.status(422);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Invalid Email User\",\r\n  \"email\": \"not-an-email\",\r\n  \"password\": \"{{user_password}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/register/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "register",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST [200] Login - Admin",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Сохранение токена админа\", function () {\r\n    pm.response.to.have.status(200);\r\n    pm.environment.set(\"adminToken\", pm.response.json().access_token);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"{{admin_email}}\",\r\n  \"password\": \"{{admin_password}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/login/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "login",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST [200] Login - Regular User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set(\"userToken\", pm.response.json().access_token);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "userToken",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"{{user_email}}\",\r\n  \"password\": \"{{user_password}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/login/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "login",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST [401] Login - Invalid Credentials",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Ошибка авторизации при неверном пароле\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([400, 401]);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"{{user_email}}\",\r\n  \"password\": \"WrongPassword!\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/login/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "login",
+                ""
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "02. Users - Get",
+      "item": [
+        {
+          "name": "GET [200] Get All Users - Admin",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Админ получает список всех пользователей\", function () {\r\n    pm.response.to.have.status(200);\r\n    const res = pm.response.json();\r\n    pm.expect(res).to.be.an(\"array\");\r\n\r\n    // Находим UUID созданного юзера для использования в следующих тестах\r\n    const target = res.find(u => u.email === pm.environment.get(\"user_email\"));\r\n    if (target) {\r\n        pm.environment.set(\"targetUserId\", target.id);\r\n    }\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET [403] Get All Users - Regular User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Обычному юзеру запрещен доступ к списку (403 Forbidden)\", function () {\r\n    pm.response.to.have.status(403);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{userToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                ""
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET [401] Get All Users - No Auth",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Запрос без токена возвращает ошибку авторизации\", function () {\r\n    // Ожидается 401 по RFC, но если сервис возвращает 403 — фиксируем баг\r\n    pm.expect(pm.response.code).to.be.oneOf([401, 403]);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                ""
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "auth": {
+        "type": "noauth"
+      }
+    },
+    {
+      "name": "03. Users - Promote",
+      "item": [
+        {
+          "name": "PUT [403] Promote User - Regular User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Обычный юзер не может повышать роли (403)\", function () {\r\n    pm.response.to.have.status(403);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{userToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/promote/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "promote",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT [404] Promote User - Non-existent ID",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Повышение несуществующего UUID дает 404\", function () {\r\n    pm.response.to.have.status(404);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/promote/00000000-0000-0000-0000-000000000000",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "promote",
+                "00000000-0000-0000-0000-000000000000"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "04. Users - Edit",
+      "item": [
+        {
+          "name": "PUT [422] Edit User - Invalid UUID (Known Bug)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"BUG: Должна быть 422, но сервер отдает 500\", function () {\r\n    // Для портфолио демонстрируем обработку бага\r\n    pm.response.to.have.status(500); \r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Test\",\r\n  \"email\": \"test@mail.ru\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/users/edit/not-a-valid-uuid",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "edit",
+                "not-a-valid-uuid"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT [200] Edit User - Valid Data",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Успешное редактирование профиля\", function () {\r\n    pm.response.to.have.status(200);\r\n    pm.expect(pm.response.json().user.name).to.eql(\"Updated User Name\");\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Updated User Name\",\r\n  \"email\": \"updated_unique_user@mail.ru\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/users/edit/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "edit",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT [400] Edit User - Duplicate Email (Known Bug)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"BUG: Должна быть 400/409 (Email занят), но сервер отдает 500\", function () {\r\n    pm.response.to.have.status(500);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Test\",\r\n  \"email\": \"{{admin_email}}\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/users/edit/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "edit",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT [401] Edit User - No Auth",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"BUG: Запрос без токена отдаёт 403 вместо 401\", function () {\r\n    pm.response.to.have.status(403);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Test\",\r\n  \"email\": \"test_no_auth@mail.ru\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/users/edit/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "edit",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT [403] Edit User - Regular User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Ограничение прав обычного юзера (403 или 500 Known Bug)\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([403, 500]);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{userToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Hacker Edit\",\r\n  \"email\": \"hacked@mail.ru\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseUrl}}/users/edit/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "edit",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "05. Users - Delete",
+      "item": [
+        {
+          "name": "DELETE [403] Delete User - Regular User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Ограничение прав обычного юзера (403 или 500 Known Bug)\", function () {\r\n    pm.expect(pm.response.code).to.be.oneOf([403, 500]);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{userToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/delete/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "delete",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE [422] Delete User - Invalid UUID (Known Bug)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"BUG: Должна быть 422, но сервер отдает 500\", function () {\r\n    pm.response.to.have.status(500);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/delete/invalid-uuid-123",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "delete",
+                "invalid-uuid-123"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE [404] Delete User - Non-existent ID",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Удаление несуществующего UUID возвращает 404\", function () {\r\n    pm.response.to.have.status(404);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/delete/00000000-0000-0000-0000-000000000000",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "delete",
+                "00000000-0000-0000-0000-000000000000"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT [200] Promote User - Admin",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Назначение прав суперадмина\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/promote/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "promote",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE [200] Delete User - Admin",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test(\"Суперадмин успешно удаляет пользователя (200)\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{adminToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/users/delete/{{targetUserId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "users",
+                "delete",
+                "{{targetUserId}}"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
